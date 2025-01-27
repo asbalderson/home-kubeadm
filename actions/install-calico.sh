@@ -1,3 +1,5 @@
+#!/bin/bash
+
 function install-calico() {
     sudo snap install helm --classic
     helm repo add projectcalico 
